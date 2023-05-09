@@ -13,6 +13,9 @@ function LeftBar({newTab, setNowTab, setRightBarId}) {
         <div className={ newTab===3? 'tab selected':'tab'} onClick={()=>{setNowTab(3); setRightBarId(3);}}>EXCHANGE</div>
         <div className={ newTab===4? 'tab selected':'tab'} onClick={()=>{setNowTab(4); setRightBarId(-1);}}>SUPPORT</div>
       </div>
+      <div className='contact'>+1(253)336-5355</div>
+      <div className='contact'>lovelydeveloper829@gmail.com</div>
+      <div className='contact'>@LovelyDev829(telegram)</div>
     </div>
   )
 }
